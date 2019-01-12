@@ -1400,7 +1400,7 @@ func (x codecSelfer1978) dechttp_Header(v *pkg1_http.Header, d *codec1978.Decode
 	yyl1 := r.ReadMapStart()
 	yybh1 := z.DecBasicHandle()
 	if yyv1 == nil {
-		yyrl1 := z.DecInferLen(yyl1, yybh1.MaxInitLen, 40)
+		yyrl1 := z.DecInferLen(yyl1, yybh1.MaxInitLen, 20)
 		yyv1 = make(map[string][]string, yyrl1)
 		*v = yyv1
 	}
@@ -1488,7 +1488,7 @@ func (x codecSelfer1978) decSlicestring(v *[]string, d *codec1978.Decoder) {
 		_ = yyrl1
 		if yyhl1 {
 			if yyl1 > cap(yyv1) {
-				yyrl1 = z.DecInferLen(yyl1, z.DecBasicHandle().MaxInitLen, 16)
+				yyrl1 = z.DecInferLen(yyl1, z.DecBasicHandle().MaxInitLen, 8)
 				if yyrl1 <= cap(yyv1) {
 					yyv1 = yyv1[:yyrl1]
 				} else {
@@ -1505,7 +1505,7 @@ func (x codecSelfer1978) decSlicestring(v *[]string, d *codec1978.Decoder) {
 		for yyj1 = 0; (yyhl1 && yyj1 < yyl1) || !(yyhl1 || r.CheckBreak()); yyj1++ { // bounds-check-elimination
 			if yyj1 == 0 && yyv1 == nil {
 				if yyhl1 {
-					yyrl1 = z.DecInferLen(yyl1, z.DecBasicHandle().MaxInitLen, 16)
+					yyrl1 = z.DecInferLen(yyl1, z.DecBasicHandle().MaxInitLen, 8)
 				} else {
 					yyrl1 = 8
 				}
@@ -1585,7 +1585,7 @@ func (x codecSelfer1978) decNodes(v *Nodes, d *codec1978.Decoder) {
 		_ = yyrl1
 		if yyhl1 {
 			if yyl1 > cap(yyv1) {
-				yyrl1 = z.DecInferLen(yyl1, z.DecBasicHandle().MaxInitLen, 8)
+				yyrl1 = z.DecInferLen(yyl1, z.DecBasicHandle().MaxInitLen, 4)
 				if yyrl1 <= cap(yyv1) {
 					yyv1 = yyv1[:yyrl1]
 				} else {
@@ -1602,7 +1602,7 @@ func (x codecSelfer1978) decNodes(v *Nodes, d *codec1978.Decoder) {
 		for yyj1 = 0; (yyhl1 && yyj1 < yyl1) || !(yyhl1 || r.CheckBreak()); yyj1++ { // bounds-check-elimination
 			if yyj1 == 0 && yyv1 == nil {
 				if yyhl1 {
-					yyrl1 = z.DecInferLen(yyl1, z.DecBasicHandle().MaxInitLen, 8)
+					yyrl1 = z.DecInferLen(yyl1, z.DecBasicHandle().MaxInitLen, 4)
 				} else {
 					yyrl1 = 8
 				}
